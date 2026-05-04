@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noor Beauty Salon</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Nav */
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: #ffe4ec;
+}
+
+/* Section */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Services */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Noor Beauty Salon</h1>
+    <p>Enhance Your Natural Beauty</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Professional & Affordable Beauty Services</h2>
+    <p>Bridal | Party | Hair | Skin Care</p>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Bridal & Party Makeup</div>
+        <div class="card">Facial & Skin Care</div>
+        <div class="card">Eyebrow Threading</div>
+        <div class="card">Haircut & Styling</div>
+        <div class="card">Hair Dye & Color</div>
+        <div class="card">More Beauty Services</div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Faisalabad, Pakistan</p>
+
+    <a class="btn" href="https://maps.app.goo.gl/3dxJFpVjTuUgetjBA" target="_blank">
+        View Location
+    </a>
+
+    <br><br>
+
+    <a class="btn" href="https://wa.me/923215606131" target="_blank">
+        Chat on WhatsApp
+    </a>
+</section>
+
+<!-- Floating WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/923215606131" target="_blank">💬</a>
+
+<footer>
+    <p>© 2026 Noor Beauty Salon</p>
+</footer>
+
+</body>
+</html>
+<p>📞 0321-5606131</p>
